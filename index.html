@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>"
+  <script src="assets/javascript/game.js"></script>
+  <title>Crystal Collector</title>
+</head>
+
+<body>
+  <div id="body">
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <h1 class="heading">Crystal Collector!!</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <p class="text-center">You will be given a random number at the start of the game.</p>
+          <p class="text-center">There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
+          <p class="text-center">You win the game by matching your total score to the random number given.  You lose the game if your total score goes above the given random number.</p>
+          <p class="text-center">The value of each crystal is hidden from you until you clock on it.</p>
+          <p class="text-center">Each time the game resets the values of each crystal will change.</p>
+        </div>
+      </div>
+    </div>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4"></div>
+
+      <div class="col-md-4">
+""
+          <img class="crystal-img" id ="gem-0" src="assets/images/blue_gem.jpg">
+
+          <img class="crystal-img" id ="gem-1" src="assets/images/green_gem.jpg">
+
+          <img class="crystal-img" id ="gem-2" src="assets/images/pink_gem.jpg">
+
+          <img class="crystal-img" id ="gem-3" src="assets/images/yellow_gem.jpg">
+      </div>
+    </div>
+  </div>
+
+    <div class="container">
+      <div class="row">
+        <div id="randomScoreDiv" class="col-md-4">
+          <h3>Match This Number</h3>
+            <div id="randomNumber"></div>
+        </div>
+
+        <div id="player-score" class="col-md-4">
+          <h3>Your total score is:</h3>
+            <div id="total-score"></div>
+        </div>
+
+        <div id="game-tally" class="col-md-4">
+          <h3>WINS:</h3>
+            <div id="winner"></div>
+          <h3>LOSSES:</h3>
+            <div id="loser"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</body>
+</html>

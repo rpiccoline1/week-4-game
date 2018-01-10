@@ -1,0 +1,49 @@
+#body {
+  background-image: url(winter_background.jpg);
+}
+
+.jumbotron {
+  background-color: #DCDCDC;
+}
+
+.heading {
+  color: rgb(0, 140, 196);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.text-center {
+  color: white;
+  font-weight: bold;
+}
+
+.crystal-img {
+  height: 80px;
+  width: 80px;
+}
+
+h3 {
+  color: rgb(214, 255, 251);
+  font-weight: bold;
+}
+
+#randomNumber {
+  color: black;
+  font-size: 40pt;
+}
+
+#total-score {
+  color: black;
+  font-size: 40pt;
+}
+
+#winner {
+    color: black;
+    font-size: 40pt;
+}
+
+#loser {
+      color: black;
+      font-size: 40pt;
+}
